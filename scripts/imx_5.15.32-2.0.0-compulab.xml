@@ -2,10 +2,11 @@
 <manifest>
 
   <remote fetch="https://github.com/compulab-yokneam" name="compulab"/>
+  <remote fetch="https://github.com/feyisay07" name="sayo"/>
 
-  <project name="meta-compulab" remote="compulab" revision="6316d8ca737f7460ea24d83f3aeec9f8d00b6e8a" path="sources/meta-compulab"/>
-  <project name="meta-compulab-bsp" remote="compulab" revision="7f5882eb9bd139e4dde204ffa6b0aa96577b36d0" path="sources/meta-compulab-bsp"/>
-  <project name="meta-bsp-imx8mm" remote="compulab" revision="rel_imx_5.15.32-2.0.0-dev" path="sources/meta-bsp-imx8mm" >
+  <project name="meta-compulab" remote="compulab" revision="53dd996d17df1bb150401dc98d7873b658dc42ff" path="sources/meta-compulab"/>
+  <project name="meta-compulab-bsp" remote="compulab" revision="3140906e77145e7c1666d6cf6a4dcbcfa6feebfa" path="sources/meta-compulab-bsp"/>
+  <project name="meta-bsp-imx8mm" remote="sayo" revision="rel_imx_5.15.32-2.0.0-dev" path="sources/meta-bsp-imx8mm" >
     <linkfile src="tools/compulab-setup-env" dest="compulab-setup-env" />
   </project>
 
